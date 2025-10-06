@@ -1,0 +1,8 @@
+{
+  "name": "zsolt/phpactor-lsp",
+  "require": {
+    "phpactor/phpactor": "^2024.03"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
