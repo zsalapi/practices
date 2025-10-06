@@ -1,0 +1,14 @@
+#https://ubuntu.flowconsult.at/en/mysql-set-change-reset-root-password/
+
+#kezdetben nincs jelszó enter
+mysql -u root -p
+UPDATE user SET Password=PASSWORD('jelszavad') WHERE User='root'; FLUSH PRIVILEGES; exit;
+exit
+dpkg-reconfigure debconf -plow
+dpkg-reconfigure phpmyadmin
+
+TCP/IP
+3306
+phpmyadmin     az adatbázisa
+root           felhasználó
+jelszavad          jelszó
