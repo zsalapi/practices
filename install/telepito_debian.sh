@@ -101,22 +101,22 @@ sudo apt install -y bzip2
 #non-free rar unrar
 sudo apt-get install -y rar unrar
 
-echo "Játékok telepítése..."
+#echo "Játékok telepítése..."
 
 # FPS játékok
-sudo apt install -y quake3 quake quake2 openarena redeclipse freedoom chocolate-doom chocolate-heretic openmohaa quakespasm
+#sudo apt install -y quake3 quake quake2 openarena redeclipse freedoom chocolate-doom chocolate-heretic openmohaa quakespasm
 
 # Arcade játékok
-sudo apt install -y extremetuxracer supertux supertuxkart neverball
+#sudo apt install -y extremetuxracer supertux supertuxkart neverball
 
 # Autóverseny
-sudo apt install -y trigger-rally torcs
+#sudo apt install -y trigger-rally torcs
 
 # RTS játékok
-sudo apt install -y 0ad warzone2100 wesnoth openttd opencity freeciv freecol
+#sudo apt install -y 0ad warzone2100 wesnoth openttd opencity freeciv freecol
 
 # Klasszikus játékcsomagok
-sudo apt install -y games-minesweeper games-tetris ltris dosbox freedink
+#sudo apt install -y games-minesweeper games-tetris ltris dosbox freedink
 
 # Filemanagers
 echo "Filemanagers"
